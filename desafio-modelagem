@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Desafio Modelagem</title>
+<style>
+body{font-family:Arial;background:#f4f4ff;padding:20px}
+h1{text-align:center;color:#2D2D9A}
+.container{max-width:900px;margin:auto}
+.card{background:white;padding:20px;border-radius:15px;margin:15px 0;box-shadow:0 4px 10px rgba(0,0,0,0.1);border-left:8px solid}
+.facil{border-color:#00C851}
+.dificil{border-color:#ff4444}
+.tag{padding:4px 10px;border-radius:10px;color:white;font-size:12px}
+.facil .tag{background:#00C851}
+.dificil .tag{background:#ff4444}
+</style>
+</head>
+<body>
+<h1>Hora do Desafio: Modelagem</h1>
+<div class="container">
+
+<div class="card facil">
+<span class="tag">FÁCIL - ESTÁVEL</span>
+<h2>1. Altura média dos estudantes daqui a 1 ano</h2>
+<p><b>Por que é fácil?</b> Crescimento humano é lento e previsível, segue padrão biológico.</p>
+<p><b>Estável ou volátil?</b> Estável - muda muito pouco.</p>
+<p><b>Informação para o modelo:</b> Idade média, altura atual e histórico de crescimento.</p>
+</div>
+
+<div class="card facil">
+<span class="tag">FÁCIL - ESTÁVEL</span>
+<h2>2. Tempo médio até a escola</h2>
+<p><b>Por que é fácil?</b> É uma rotina, mesmo trajeto e horário.</p>
+<p><b>Estável ou volátil?</b> Estável - tem padrão que se repete.</p>
+<p><b>Informação para o modelo:</b> Distância, meio de transporte e horário de saída.</p>
+</div>
+
+<div class="card dificil">
+<span class="tag">DIFÍCIL - VOLÁTIL</span>
+<h2>3. Vídeo mais assistido da próxima semana</h2>
+<p><b>Por que é difícil?</b> Depende de comportamento humano, sorte e algoritmo, muda do nada.</p>
+<p><b>Estável ou volátil?</b> Muito volátil - pode mudar em horas.</p>
+<p><b>Informação para o modelo:</b> Vídeos que estão crescendo rápido e engajamento inicial.</p>
+</div>
+
+<div class="card dificil">
+<span class="tag">DIFÍCIL - VOLÁTIL</span>
+<h2>4. Preço de moeda estrangeira amanhã</h2>
+<p><b>Por que é difícil?</b> Influenciado por política, economia e notícias mundiais.</p>
+<p><b>Estável ou volátil?</b> Volátil - oscila todo dia.</p>
+<p><b>Informação para o modelo:</b> Histórico de preço, taxa de juros e notícias econômicas.</p>
+</div>
+
+</div>
+</body>
+</html>
